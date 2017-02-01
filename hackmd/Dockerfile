@@ -8,7 +8,7 @@ RUN echo "deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main" > /etc/
 # source
 RUN mkdir /hackmd
 WORKDIR /hackmd
-RUN git clone https://github.com/hackmdio/hackmd.git /hackmd
+RUN git clone https://github.com/manji-0/hackmd.git /hackmd
 
 # npm, deps
 RUN npm install
@@ -29,6 +29,6 @@ RUN npm prune --production
 RUN apt-get remove -y --auto-remove build-essential && \
 	apt-get clean && apt-get purge && rm -r /var/lib/apt/lists/*
 
-EXPOSE 3000
+EXPOSE 80
 
 CMD ["/bin/bash", "/hackmd/docker-entrypoint.sh"]
