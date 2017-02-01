@@ -1,6 +1,15 @@
 docker-hackmd
 ===
 
+本家のhackmdを改造して
+
+* CDN無効
+* 画像をファイルシステムへ保存
+
+をデフォルトにしたもの
+
+---
+
 [migration-to-0.5.0](https://github.com/hackmdio/migration-to-0.5.0)
 ---
 
