@@ -8,3 +8,5 @@ var GOOGLE_API_KEY = '';
 var GOOGLE_CLIENT_ID = '';
 
 var DROPBOX_APP_KEY = '';
+
+var imageUploadType = 'filesystem';
