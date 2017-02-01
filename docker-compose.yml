@@ -12,4 +12,4 @@ hackmd:
   links:
     - hackmdPostgres
   ports:
-    - "80:80"
+    - "80:3000"

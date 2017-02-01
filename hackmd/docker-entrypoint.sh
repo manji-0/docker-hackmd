@@ -12,3 +12,4 @@ sleep 3
 
 # run
 NODE_ENV='production' node app.js
+
